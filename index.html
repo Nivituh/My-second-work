@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <title>Porten</title>
+</head>
+
+<body>
+    <!-- Верстал для разрешения 1920px. После адаптировал 
+        под 1024px(сам придумал внешние изменения
+        строго не судите=)). Для меньшего разрешения пока 
+        не хватает времени, но постараюсь доделать -->
+    <header class="header">
+        <div class="container header__box">
+            <a href="#" class="logo text__logo">PORTEN</a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">ПОНРАВИЛОСЬ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ЛИЧНЫЙ КАБИНЕТ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">НАСТРОЙКИ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><img src="./img/cart.svg"
+                            alt="cart"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><img src="./img/search.svg"
+                            alt="search "></a>
+                </li>
+            </ul>
+        </div>
+        <div class="header__info">
+            <div class="container">
+                <div class="name__logo">
+                    <p class="header__name__text_first">PORTEN</p>
+                    <p class="header__name__text_second">санкт-петербург</p>
+                </div>
+                <p class="header__info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum
+                    purus, est tortor pulvinar ut
+                    in. Fringilla a
+                    diam enim sed justo, sed iaculis sagittis. Tortor id eu interdum nec ut iaculis. Penatibus
+                    ullamcorper ultricies morbi
+                    ipsum sem metus pharetra, mi. Tortor nibh magna feugiat id nunc, dui nisl viverra.</p>
+            </div>
+
+        </div>
+    </header>
+    <main class="main">
+        <div class="collection__new">
+            <div class="collection__new_cards">
+                <h3 class="collection__name">СЕЗОН 2020/21</h3>
+                <div class="name_line"></div>
+                <div class="product__cards product__cards_new">
+                    <div class="card card_season" style="width: 18rem;">
+                        <div class="card__img card_bcg">
+                            <img src="./img/product.png" class="card-img-top product_img" alt="product">
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="product_link">Louis XVI ATHOS</a>
+                            <p class="card_text">165 000 руб.</p>
+                        </div>
+                    </div>
+                    <div class="card card_season" style="width: 18rem;">
+                        <div class="card__img card_bcg">
+                            <img src="./img/product.png" class="card-img-top product_img" alt="product">
+                        </div>
+                        <div class="card-body ">
+                            <a href="#" class="product_link">Louis XVI ATHOS</a>
+                            <p class="card_text">165 000 руб.</p>
+                        </div>
+                    </div>
+                    <div class="card card_season" style="width: 18rem;">
+                        <div class="card__img card_bcg">
+                            <img src="./img/product.png" class="card-img-top product_img" alt="product">
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="product_link">Louis XVI ATHOS</a>
+                            <p class="card_text">165 000 руб.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collection_new_href">
+                <h3 class="collection__name_new">Новая коллекция</h3>
+                <div class="name_line_new"></div>
+                <div class="collection_new_box_link">
+                    <a href="#" class="collection_new_link">Каталог</a>
+                </div>
+            </div>
+        </div>
+        <div class="collection__old">
+            <div class="collection__old__bcg">
+            </div>
+            <div class="collection__old__href">
+                <h3 class="collection__name_old">коллекция 2018</h3>
+                <div class="name_line__old"></div>
+                <div class="collection__old__box__text">
+                    <p class="collection__old__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non rutrum
+                        ornare ut mattis habitant dui arcu. Sagittis amet
+                        nunc ut neque quis nibh arcu. Vivamus vestibulum nisi et venenatis sed scelerisque magna
+                        consectetur. Amet convallis
+                        quis gravida facilisis vulputate. Faucibus facilisi habitasse ipsum interdum dictum aliquet.
+                        Velit
+                        quis ullamcorper
+                        pulvinar nulla malesuada integer. Aenean praesent viverra nulla nullam natoque volutpat
+                        curabitur
+                        auctor. Viverra
+                        viverra ullamcorper scelerisque risus dignissim egestas. Id aliquam a aliquam egestas leo orci
+                        pharetra sed diam.</p>
+                </div>
+                <div class="collection_new_box_link">
+                    <a href="#" class="collection_new_link">посмотреть коллекцию</a>
+                </div>
+            </div>
+        </div>
+        <div class="container new_products_box">
+            <h3 class="new_products_header">новые поступления</h3>
+            <div class="name_line_n_products"></div>
+            <div class="product__cards">
+                <div class="card" style="width: 18rem;">
+                    <div class="card__img card_bcg">
+                        <img src="./img/product.png" class="card-img-top product_img" alt="product">
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="product_link">Louis XVI ATHOS</a>
+                        <p class="card_text">165 000 руб.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card__img card_bcg">
+                        <img src="./img/product.png" class="card-img-top product_img" alt="product">
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="product_link">Louis XVI ATHOS</a>
+                        <p class="card_text">165 000 руб.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card__img card_bcg">
+                        <img src="./img/product.png" class="card-img-top product_img" alt="product">
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="product_link">Louis XVI ATHOS</a>
+                        <p class="card_text">165 000 руб.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card__img card_bcg">
+                        <img src="./img/product.png" class="card-img-top product_img" alt="product">
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="product_link">Louis XVI ATHOS</a>
+                        <p class="card_text">165 000 руб.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card__img card_bcg">
+                        <img src="./img/product.png" class="card-img-top product_img" alt="product">
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="product_link">Louis XVI ATHOS</a>
+                        <p class="card_text">165 000 руб.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card__img card_bcg">
+                        <img src="./img/product.png" class="card-img-top product_img" alt="product">
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="product_link">Louis XVI ATHOS</a>
+                        <p class="card_text">165 000 руб.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card__img card_bcg">
+                        <img src="./img/product.png" class="card-img-top product_img" alt="product">
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="product_link">Louis XVI ATHOS</a>
+                        <p class="card_text">165 000 руб.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card__img card_bcg">
+                        <img src="./img/product.png" class="card-img-top product_img" alt="product">
+                    </div>
+                    <div class="card-body">
+                        <a href="#" class="product_link">Louis XVI ATHOS</a>
+                        <p class="card_text">165 000 руб.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="our__brands">
+            <div class="container our__brands_box">
+                <h3 class="brand__header">наши бренды</h3>
+                <div class="name_line__brands"></div>
+                <div class="brands_box">
+                    <div class="brand_card"><img src="./img/brand_name.png" alt="brand_name" class="brand_card_img">
+                    </div>
+                    <div class="brand_card"><img src="./img/brand_name.png" alt="brand_name" class="brand_card_img">
+                    </div>
+                    <div class="brand_card"><img src="./img/brand_name.png" alt="brand_name" class="brand_card_img">
+                    </div>
+                    <div class="brand_card"><img src="./img/brand_name.png" alt="brand_name" class="brand_card_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer__all">
+        <div class="footer__top">
+            <div class="container about_us_box">
+                <div class="about_us">
+                    <h3 class="footer_top_header">О магазине</h3>
+                    <p class="about_us_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra
+                        nunc
+                        cursus tortor lectus nunc nulla nibh.
+                        Egestas amet consectetur vel vitae aliquam dictum suspendisse. Lobortis eget consequat, tellus
+                        et et
+                        sed turpis. Pretium
+                        quisque vitae, amet, porttitor odio ultricies massa pharetra leo. Et ipsum urna fames in sit mi
+                        ultrices nisi, nunc.</p>
+                </div>
+                <div class="category_href">
+                    <h3 class="footer_top_header">Категории</h3>
+                    <ul class="footer_top_category">
+                        <li class="footer_top_list"><a href="#" class="fotter_top_link">часы</a></li>
+                        <li class="footer_top_list"><a href="#" class="fotter_top_link">браслеты</a></li>
+                        <li class="footer_top_list"><a href="#" class="fotter_top_link">ремни</a></li>
+                        <li class="footer_top_list"><a href="#" class="fotter_top_link">ювелирные изделия</a></li>
+                        <li class="footer_top_list"><a href="#" class="fotter_top_link">запонки</a></li>
+                    </ul>
+                </div>
+                <form action="#" class="form">
+                    <h3 class="footer_top_header">рассылка</h3>
+                    <p class="about_us_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra
+                        nunc
+                        cursus tortor lectus nunc nulla nibh.</p>
+                    <input type="email" placeholder="Ваша почта" class="inp_email">
+                    <button class="footer__button footer_top_list">подписаться</button>
+                </form>
+            </div>
+
+        </div>
+        <div class="footer__bottom">
+            <div class="container copy_box">
+                <p class="copy_text">&copy; 2020 Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
